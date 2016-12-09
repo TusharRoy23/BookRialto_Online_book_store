@@ -1,0 +1,1110 @@
+body,html{
+    min-height: 100%;
+    //font-family: 'Archer SSm A', Fallback, sans-serif;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.body-background-img{
+	background-image:url(../image/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#prev_image{
+	background-image:url(../defaults/previous.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#next_image{
+	background-image:url(../defaults/next.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#userAllPrev_image{
+	background-image:url(../defaults/previous.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#userAllNext_image{
+	background-image:url(../defaults/next.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.form-signin
+{
+    max-width: 300px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.centerdiv{
+    margin: 0 auto;
+    position: relative;
+    padding-left: 280px;
+    top:150px;
+    width:100% ;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.portrait img {
+        display: inline-block; 
+        height: 50px; 
+        margin-top: -5px;
+        width:50px;
+}
+.form-actions{
+    text-align: right;
+}
+.homepos{
+    margin-top: 10px;
+	margin-right:10px;
+}
+.searchbtn{
+	position: absolute;
+	right:10px;
+    height:34px;
+}
+.fonts{
+    color: #001a00;
+}
+.btn-primary{
+    background-color: #69d0ea;
+    border-color: #69d0ea;
+}
+.regfont{
+    color: #02595f;
+}
+.navcolor{
+	background:#FFFFFF ;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.modal-content {
+    -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px; 
+    border-radius: 4px;
+    border: 0;
+    text-align: left;
+}
+ 
+.modal-header {
+    padding: 25px 25px 15px 25px;
+    background: #fff;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    -moz-border-radius: 4px 4px 0 0; 
+    -webkit-border-radius: 4px 4px 0 0; 
+    border-radius: 4px 4px 0 0;
+}
+ 
+.modal-header .close {
+    font-size: 36px;
+    color: #888;
+    font-weight: 300;
+    text-shadow: none;
+    opacity: 1;
+}
+ 
+.modal-title {
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+ 
+.modal-body {
+    padding: 25px 25px 30px 25px;
+    background: #eee;
+    text-align: left;
+    -moz-border-radius: 0 0 4px 4px; 
+    -webkit-border-radius: 0 0 4px 4px; 
+    border-radius: 0 0 4px 4px;
+}
+ 
+.modal-body img {
+    margin-bottom: 15px;
+}
+ 
+.modal-body form textarea {
+    height: 100px;
+}
+ 
+.modal-body form .input-error {
+    border-color: #fd625e;
+}
+/**Profile Div**/
+.LeftSearchDiv{
+    height:245px;
+    width:200px;
+    background:red;
+    float:left;
+    position: relative;
+    top:150px;
+}
+.BookShowDiv{
+    height:245px;
+    width:640px;
+    background:green;
+    position: relative;
+    top:150px;
+    left:250px;
+}
+.bigform-content {
+    border: solid 5px #DDD;
+    margin: 30px 20px;
+    overflow: hidden;
+    padding:20px;
+    position:relative;
+}
+.regscene{
+    height:500px;
+    width:500px;
+    float:left;
+    left:200px;
+    position:fixed;
+    top:200px;
+}
+.regform{
+    height:500px;
+    width:500px;
+    float:right;
+    right:40px;
+    position: relative;
+    top:140px;
+}
+.bookimg{
+    height:50px;
+    width:60px;
+    position:relative;
+    top:15px;
+}
+.ideaimg{
+    height:40px;
+    width:40px;
+    position:relative;
+    left:10px;
+    top:10px;
+}
+.share{
+    position:relative;
+    left:2px;
+    top:17px;
+}
+.leftspace{
+    position:relative;
+    left:20px;
+    top:10px;
+}
+.space{
+    position:relative;
+    left:50px;
+    top:20px;
+}
+.special-img 
+{
+    position: relative;
+    top: -5px;
+    float: left;
+    left: -5px;
+    height:30px;
+    width:30px;
+}
+.navbar-login
+{
+    width: 305px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+ 
+.navbar-login-session
+{
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+ 
+.icon-size
+{
+    font-size: 87px;
+}
+.drop-img{
+    position: relative;
+    top: -6px;
+    float: left;
+    left: -1px;
+    height:100px;
+    width:96px;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -100px;
+}
+.push {
+    height: 370px;
+}
+.basic-info{
+	
+}
+.navbar-bottom {
+    height: 160px;
+    /* .push must be the same height as .footer */
+    background-color:#330033;
+}
+.footer{
+    position: absolute;
+    top:700px;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    /*height: 60px;*/
+}
+.footer-img{
+    position: relative;
+    top: -15px;
+    float: left;
+    left: 530px;
+    height:65px;
+    width:65px;
+}
+.copyright{
+    position: relative;
+    top: 60px;
+    left: 415px;
+}
+.gallary{
+    display:inline-block;
+    height:450px;
+    width:770px;
+    left:430px;
+    position: relative;
+    top:130px;
+    /*background: yellow;*/
+}
+.img-size{
+    position: relative;
+    height: 250px;
+    width: 180px;
+    top:17px;
+    left:-30px;
+	border-radius:15px;
+}
+.img-size-in-table{
+	height:50px;
+	width: 40px;
+}
+.img-gal{
+    position: relative;
+    height: 300px;
+    width:770px;
+    left: 3px;
+    top: 10px;
+    /*background:red;*/
+}
+.descrip{
+    position: relative;
+    height: 300px;
+    width: 520px;
+    left: 185px;
+    top: -250px;
+    /*background:green;*/
+}
+.title{
+    position: relative;
+    left: 10px;
+    top: 20px;
+    font-size: 25px;
+}
+.author{
+	position: relative;
+	left: 10px;
+	top: 12px;
+	font-size: 15px;
+	color:red;
+}
+.owner{
+	position: relative;
+	left: 10px;
+	top: 10px;
+	font-size: 15px;
+	color:blue;
+}
+.msgDescrib{
+	position: relative;
+	left: 10px;
+	top: 8px;
+	font-size: 15px;
+}
+.des{
+	position: relative;
+	left: 10px;
+	top: 24px;
+	font-size: 25px;
+}
+.deslimit{
+   	 width: 500px;
+	height: 150px;
+	word-wrap: break-word;
+	left: 10px;
+	top: 10px;
+	position:relative;
+}
+.lendable{
+	position:absolute;
+	left:10px;
+	top: 250px;
+}
+.buyable{
+	position:absolute;
+	left:136px;
+	top: 250px;
+}
+.showable{
+	position:absolute;
+	left:243px;
+	top: 250px;
+}
+.cross-icon{
+    position:relative;
+    left: 730px;
+    top: -100px;
+}
+.edit-icon{
+    position:relative;
+    top: -100px;
+    left:710px;
+}
+.small-btn{
+	position: absolute;
+	top:250px;
+	left: 627px;
+}
+.add-pages-btn{
+	position: absolute;
+	top:250px;
+	left:545px;
+}
+.drop-down-book-form{
+    position:fixed;
+    height: 500px;
+    width: 320px;
+    left: 30px;
+    top: 100px;
+    /*background: red;*/
+}
+.add-book{
+    position:relative;
+    left: 110px;
+}
+.form-pos{
+    position:relative;
+    left: 120px;
+}
+.bt-size{
+    height:44px;
+}
+.add-book-pa{
+    width: 240px;
+    word-wrap: break-word;
+}
+.search-bar{
+    position:relative;
+    /*background: blue;*/
+    top:130px;
+    left:430px;
+    height:50px;
+    width:780px;
+}
+.search-all-user{
+	position:absolute;
+    /*background: blue;*/
+    top:80px;
+    left:430px;
+    height:50px;
+    width:780px;
+}
+.dropdown-bar{
+    position:relative;
+    /*background: red;*/
+    top:-45px;
+    left:250px;
+    height:35px;
+    width:200px;
+}
+.search-bt-size{
+    height:34px;
+}
+.text-bar{
+    position:relative;
+    /*background: red;*/
+    top:-45px;
+    left:365px;
+    height:35px;
+    width:400px;
+}
+.user-view-search-bar{
+	 position:absolute;
+    /*background: red;*/
+    top:5px;
+    left:60px;
+    height:35px;
+    width:400px;
+}
+.search-btn{
+    position:relative;
+    /*background: red;*/
+    top:-115px;
+    left:700px;
+    height:35px;
+    width:60px;
+}
+.rialto-header{
+    position:relative;
+    top: 10px;
+    left: 8px;
+}
+.user-profile{
+    position:fixed;
+    height:573px;
+    width:360px;
+    left:80px;
+    top:80px;
+}
+.pro-img{
+	position:relative;
+	height:350px;
+	width:300px;
+	left:-30px;
+	top:-20px;
+}
+.pro-details{
+	position:relative;
+	height:200px;
+	width:300px;
+	/*background:red;*/
+	top:-20px;
+	left:-30px;
+	word-wrap: break-word;
+}
+.jumbotron{
+	background:#F8F8F8  ;
+}
+#searchid{
+	position:relative;
+	width:300px;
+	border:solid 1px #CCC;
+	padding: 10px;
+	font-size:14px;
+}
+#result{
+	position:absolute;
+	width:300px;
+	padding:10px;
+	display:none;
+	top:40px;
+	overflow:hidden;
+	border:1px #CCC solid;
+	border-radius: 5px;
+	background-color: #F8F8F8 ;
+}
+.show{
+	padding:10px; 
+	border-bottom:1px #ccc dashed;
+	font-size:15px; 
+	height:50px;
+}
+.show:hover{
+	background:#A0A0A0   ;
+	color:black;
+	cursor:pointer;
+}
+.search-img-size{
+	position:absolute;
+	width:50px; 
+	height:50px;
+	left:10px;
+	top:48px;
+}
+.book_name{
+	position:absolute;
+	left:20px;
+}
+.edit-icon-img{
+	position:absolute;
+	top:30px;
+	left:160px;
+}
+.edit-profile-img{
+	position:absolute;
+	top:40px;
+	left:40px;
+	font-size:40px;
+}
+.homestyle{
+	position:absolute;
+	background-color: #33334d; /*dark grey*/
+	color: #f2f2f2;
+	width:1366px;
+	height:350px;
+	right:0px;
+}
+.home-form-control{
+	color: #3d3d5c;
+}
+.home-container-fluid{
+	position:absolute;
+	color: #14141f;
+	top:390px;
+}
+
+.main{
+	position:absolute;
+}
+.head{
+    position:absolute;
+    top: 120px;
+    left:440px;
+}
+ 
+.head1{
+     color: #303e57;
+     text-decoration: underline;
+    position:absolute;
+     text-align: left;
+    top: 120px;
+    left:450px;
+    font-size:30px;
+}
+.head2{
+    color:999966;
+    position:absolute;
+    text-align: center;
+    top: 120px;
+    left:610px;
+    font-size:30px;
+    text-decoration: underline;
+}
+.head3{
+    color:#53af8b;
+    position:absolute;
+    text-align: right;
+    top: 120px;
+    left:750px;
+    font-size:30px;
+    text-decoration: underline;
+}
+.mydiv
+{
+    top:200px;
+}
+ 
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #f4511e;
+}
+ 
+.carousel-indicators li {
+    top: 469px;
+    border-color: #f4511e;
+}
+ 
+.carousel-indicators li.active {
+    top: 300px;
+    background-color: #f4511e;
+}
+ 
+.item h4 {
+    color:#53af8b;
+    font-size:25px;
+    top: 300px;
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 330px 0;
+}
+ 
+.item span {
+    top: 300px;
+    font-style: normal;
+}
+.users-book{
+    position:fixed;
+    height: 500px;
+    width: 360px;
+    left: 65px;
+    top: 125px;
+    /*background:green;*/
+}
+#users-book-profile{
+    position:absolute;
+    height:150px;
+    width:120px;
+    left:115px;
+    top:35px;
+}
+#users-book-profile-details{
+    position:relative;
+    height:200px;
+    width:300px;
+    /*background:red;*/
+    top:350px;
+    left:-10px;
+    word-wrap: break-word;
+}
+#frames{
+    position:fixed;
+    
+    left: 505px;
+    top: 125px;
+}
+.book-details{
+    position:fixed;
+    height:500px;
+    width: 850px;
+    left: 270px;
+    top: 125px;
+}
+#book-imgs{
+    position: absolute;
+    left: 100px;
+    top:50px;
+}
+#book-dets{
+    position:absolute;
+    height:340px;
+    width:510px;
+    left:320px;
+    top:27px;
+}
+.lands{
+    position:absolute;
+    left:24px;
+    top: 280px;
+}
+.buys{
+    position:absolute;
+    left:154px;
+    top: 280px;
+}
+.btn-more-small{
+    position:absolute;
+    left:374px;
+    top: 280px;
+}
+.globalSearch{
+	position:absolute;
+	padding-top: 10px;
+	padding-right:20px;
+}
+#prev_image,#next_image
+{
+ width:40px;
+ height:40px;
+}
+#userAllPrev_image, #userAllNext_image{
+	width:40px;
+	height:40px;
+}
+#report_prevs_image, #report_nexts_image{
+	width:40px;
+	height:40px;
+}
+#slideshow_image
+{
+ width:500px;
+ height:600px;
+}
+#slide_cont
+{
+ box-shadow:0px 0px 10px 0px silver;
+ position:relative;
+ width:auto;
+ height:auto;
+}
+.details{
+	position: absolute;
+	left: 280px;
+	top: 25px;
+	/*background-color:red;*/
+	width:auto;/**/
+	height:auto;
+}
+.detailsForReports{
+	position: absolute;
+	left: 280px;
+	top: 25px;
+	/*background-color:red;*/
+	width:auto;/**/
+	height:auto;
+}
+.detailsForUsers{
+	position: absolute;
+	left: 280px;
+	top: 25px;
+	/*background-color:red;*/
+	width:auto;/**/
+	height:auto;
+}
+.description{
+	position: absolute;
+	width:280px;
+	height:auto;
+}
+#lendables{
+	position: absolute;
+	top:350px;
+}
+#buyables{
+	position: absolute;
+	top:380px;
+}
+#cov{
+	position: absolute;
+	width:180px;
+	height:250px;
+}
+#imgTest, #imgTestReports, #imgTestUsers{
+	position: absolute;
+	width:180px;
+	height:250px;
+}
+#globalSearchResult{
+	height: 400px;
+	width: auto;
+	/*background-color:red;*/
+}
+.isLendablePrice{
+	position: absolute;
+	left:100px;
+	top:350px;
+}
+.lendtaka{
+	position: absolute;
+	left: 180px;
+	top:350px;
+}
+.isBuyablePrice{
+	position: absolute;
+	left:100px;
+	top:380px;
+}
+.buytaka{
+	position: absolute;
+	left: 180px;
+	top:380px;
+}
+.buyAndLendButton{
+	position: absolute;
+	height:100px;
+	width:180px;
+	left:25px;
+	top:300px;
+}
+.request-btn{
+	position:absolute;
+	top:250px;
+	left:340px;
+}
+/*kousheik*/
+.user-profile-view{
+    position:fixed;
+    height:320px;
+    width:850px;
+    left:250px;
+    top:80px;
+}
+
+.jjumbotron{
+    background:#d6d6c2  ;
+}
+
+.viewprofile-image{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+.about-profile-view{
+    position: absolute;
+    left: 270px;
+    top: 50px; 
+}
+
+.book-info{
+    position: fixed;
+    background-color: #ccffff;
+    height:200px;
+    width:850px;
+    top:420px;
+}
+
+.banalce{
+    position: absolute;
+    height: 200px;
+    width: 283px;
+    top: 330px;
+    left: 60px;
+}
+
+.total-book{
+    position: absolute;
+    padding-left: 50px;
+    height: 200px;
+    width: 283px;
+    left:280px;
+    top: 0px;
+}
+
+.sold-book{
+    position: absolute;
+    padding-left: 50px;
+    height: 200px;
+    width: 283px;
+    left:565px;
+    top: 0px;
+}
+/*Tushar*/
+.edit-view-profile-img{
+	position:absolute;
+	top:30px;
+	left:137px;
+	font-size:30px;
+	color: #c44dff;
+}
+.buyable-btn{
+	position:absolute;
+	top: 100px;
+	left: 195px;
+}
+.lendable-btn{
+	position:absolute;
+	top: 150px;
+	left: 195px;
+}
+#Test{
+	box-shadow:0px 0px 10px 0px silver;
+	position:relative;
+	width:auto;
+	height:400px;
+}
+.yesNoBtn{
+	position: absolute;
+	left: 240px;
+	top: 340px;
+	width:auto;/**/
+	height:auto;
+}
+.message-btn{
+	position:absolute;
+	top:250px;
+	left:3px;
+}
+.message-btn-allUser_view{
+	position:absolute;
+	top:330px;
+	left:3px;
+}
+.lendOrBuygallary{
+    display:inline-block;
+    height:450px;
+    width:770px;
+    left:300px;
+    position: relative;
+    top:130px;
+    /*background: yellow;*/
+}
+.read-btn{
+	position: absolute;
+	top:250px;
+	left: 300px;
+}
+.report-btn{
+	position: absolute;
+	top:250px;
+	left: 200px;
+}
+.watermarkImg{
+	position:absolute;
+	top:250px;
+	left:420px;
+}
+#waterImg{
+	width:200px;
+	height:250px;
+	
+}
+.edit-water-img{
+	position:absolute;
+	top:30px;
+	left:180px;
+}
+#prevs_image{
+	background-image:url(../defaults/previous.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#nexts_image{
+	background-image:url(../defaults/next.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#report_prevs_image{
+	background-image:url(../defaults/previous.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#report_nexts_image{
+	background-image:url(../defaults/next.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#user_prevs_image{
+	background-image:url(../defaults/previous.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#user_nexts_image{
+	background-image:url(../defaults/next.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.allUsers{
+	height:200px;
+	width:310px;
+	/*background-color:red;*/
+	position:absolute;
+	top:140px;
+	left:310px;
+	transition:all 0.3s ease;
+}
+.allReports{
+	height:200px;
+	width:310px;
+	/*background-color:green;*/
+	position:absolute;
+	top:140px;
+	left:700px;
+	transition:all 0.3s ease;
+}
+.allBooks{
+	height:200px;
+	width:310px;
+	/*background-color:blue;*/
+	position:absolute;
+	top:390px;
+	left:500px;
+	transition:all 0.3s ease;
+}
+.allUsers:hover{
+	-webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.allReports:hover{
+	-webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.allBooks:hover{
+	-webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.userGallary{
+	/*display:inline-block;*/
+    height:450px;
+    width:950px;
+	position: relative;
+    left:210px;
+    top:230px;
+	/*background-color:yellow;*/
+}
+.bookGallary{
+	height:450px;
+    width:1290px;
+	position: relative;
+    left:30px;
+    top:230px;
+}
+.reportGallay{
+	height:450px;
+    width:950px;
+	position: relative;
+    left:210px;
+    top:230px;
+}
+.book-img-gal{
+	position: relative;
+    height: 300px;
+    width:770px;
+    left: 30px;
+    top: 10px;
+    /*background:red;*/
+}
+.cross-icon-book{
+	 position:absolute;
+    left: 690px;
+    top: 20px;
+}
+.lendable-books{
+	position:absolute;
+	left:10px;
+	top: 250px;
+}
+.buyable-books{
+	position:absolute;
+	left:146px;
+	top: 250px;
+}
+.request-btn-books{
+	position:absolute;
+	top:250px;
+	left:275px;
+}
+.small-btn-books{
+	position: absolute;
+	top:250px;
+	left: 360px;
+}
+.report-btn-books{
+	position:absolute;
+	top:250px;
+	left:455px;
+}
+.bookBtn{
+	position: absolute;
+	top:250px;
+	left: 90px;
+}
+.reportBtn{
+	position:absolute;
+	top:250px;
+	left:295px;
+}
